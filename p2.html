@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rachel Gorman | CC Lab Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>Rachel Gorman</h1>
+      <ul>
+        <li>Project <a href="p1.html">#1</a></li>
+        <li>Project <a href="p2.html">#2</a></li>
+        <li>Project <a href="p3.html">#3</a></li>
+        <li>Project <a href="p4.html">#4</a></li>
+        <li>Project <a href="p5.html">#5</a></li>
+        <li>Project <a href="p6.html">#6</a></li>
+        <li>Project <a href="p7.html">#7</a></li>
+        <li>Project <a href="p8.html">#8</a></li>
+        <li>Project <a href="p9.html">#9</a></li>
+      </ul>
+    </div>
+
+
+     <!-- main content -->
+    <div class="content">
+      <!-- 1. give your project  a titile -->
+
+      <h1>
+        Face Generator
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+
+        <iframe
+          width="400px"
+          height="400px"
+          src="https://preview.p5js.org/rachelcvgorman/embed/UytjTSKs9">
+        </iframe>
+      </div>
+      <h1>
+        Project Information
+      </h1>
+      <p>
+        Project by: <b>Rachel Gorman</b>
+      </p>
+
+      <h1>
+        Project Objetive
+      </h1>
+
+      <p>
+       Build a simple generator that makes multiple variations of the same face. 
+      </p>
+
+      <!-- 4. sketches -->
+      <h1>
+        Original Sketches
+      </h1> 
+
+      <br>
+          <p>
+        Original sketches conceived of a range of faces that had organic shapes and colors that ranged between pink and green.
+          </p>
+      <div class="fullwidth">
+        <iframe
+          width="400px"
+          height="400px"
+          src="https://cdn.glitch.com/ee3d0fe7-68ee-4b10-b884-86fd8bc05f6c%2FAsset%202.png?v=1631586827898"> 
+          </iframe>
+      </div>
+      <br>
+       <p>
+      When I transferred to p5.js and began to experiment with shape-buiding, I quickly realized that my skills gap made it challenging for me to render organic, fluid shapes like I originally intended. 
+      I decided to stick with more formal primitive shapes, but keep the eyes and mouth as similar as possible</p>
+          <br>
+        <p> The face with my larger values:
+          </p>
+        <div class="fullwidth">
+          <iframe
+          width="400px"
+          height="400px"
+          src="https://preview.p5js.org/rachelcvgorman/embed/kkLr5tZ727">
+          </iframe>
+      </div>
+          <p> The face with my smaller values:
+          </p>
+        <div class="fullwidth">
+          <iframe
+          width="400px"
+          height="400px"
+          src="https://preview.p5js.org/rachelcvgorman/embed/lGYi4vQu8">
+          </iframe>
+      </div>
+  
+      <br>
+      <p> 
+        After randomizing for color, face shape, eye shape, and mouth position, my final result in a looped video demo: 
+      </p>
+      <div class="fullwidth">
+          <iframe
+          width="400px"
+          height="400px" src="https://giphy.com/embed/hk2afxyPakGPnBNioT"></iframe>
+        </div>
+        <br>
+          
+      <h1>
+        Reflections
+      </h1>
+          <p>
+            Although I wasn't able to easily render the organic shapes that I had initially intended, I think that (after much tinkering) I was
+            still able to capture the informality that I had originally tried to convey with my drawings in p5.js. 
+            
+            After I added interactivity to the piece with user variables and randomized mousePressed functions, I began to really enjoy how dynamic the faces became. I 
+            love to see how the faces' shapes and colors change with every click, and how the personality and story behind the characters change alongside. 
+      </p>
+      <p>
+            This project did have challenges for me: I spent a lot of time making sure that the random variable values were large enough to be seen and interesting, but small enough so that the faces didn't
+            fall apart. Because I had chosen to drawn unconventional faces to begin with, some of their elements could easily begin to look 
+            unrelated if the random variable values made them too far apart. For that reason, I ended up tying the values of some of the smaller elements to the larger ones
+            by dividing the user variables of the larger elements by an integer, rather than creating all new user variables to experiment with. I also experimented with changing the mouth shape from a line to an 
+            ellipse, so that the minimum value face would better reflect my initial sketches, but I wasn't able to figure out a solution. It's frustrating to be faced with a skills gap, but ultimately I am proud
+            that I was able to accomplish adding an interactive element to my code for the first time.
+        <br>  
+       <!-- 5. credit -->
+      <h1>
+        Credits
+      </h1>
+      
+      <p>
+        This project was based on an assignment prompt that I received during the course of my CC Lecture and CC Lab classes. Many thanks to 
+        <a href="https://editor.p5js.org/prewiredonline/sketches/mA6XRFf-G">this editor</a> for giving me code to help me see x and y coordinates as I work.
+      </p>
+      
+    </div>
+  </body>
+</html>
