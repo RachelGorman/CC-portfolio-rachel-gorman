@@ -1,29 +1,31 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: monospace;
+  background: #EDFFEC;
+  color: #1D1C1F;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 2em;
   width: 100%;
   height: 100%;
 }
 
 h1 {
-  color: #373fff;
-  font-size: 18pt;
+  color: #3540804;
+  font-size: 25pt;
 }
 .special-h2{
   margin-top:0;
 }
 h2 {
-  font-size: 18pt;
+  font-size: 15pt;
 /*   margin-top:0; */
 }
 
 button {
-  font-family: "Inconsolata", monospace;
-  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FF8587
   border: none;
-  color: white;
+  color: black;
   padding: 10px 10px;
   width: 100%;
   /*   text-align: center; */
@@ -78,25 +80,33 @@ p {
   /*   background-color:yellow; */
 }
 
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
 ul {
   margin: 0;
   padding: 0;
 }
 
 li {
-  font-size: 12pt;
-  list-style-type: none;
+  color:#3A7D44;
+  font-size: 10pt;
+  list-style-type: square;
   padding-bottom: 1em;
 }
 
 li.bullet {
-  list-style-type: "- ";
+  list-style-type: "square";
   margin: 1%;
   padding: 0;
 }
 
 li.bullet a {
-  color: blue;
+  color: #540804;
 }
 
 li a {
@@ -139,7 +149,7 @@ body .gist .gist-file {
 body .gist .gist-data {
   border-bottom: none;
   border-radius: 0;
-  background-color: #f1f3f5;
+  background-color: #FFEDEB;
 }
 
 body .gist .blob-wrapper {
@@ -147,7 +157,7 @@ body .gist .blob-wrapper {
 }
 
 body .gist .highlight {
-  background-color: transparent;
+  background-color: #FFEDEB
   font-family: "Droid Sans Mono", monospace;
   font-size: 14px;
 }
@@ -169,7 +179,7 @@ body .gist tr:last-child td {
 
 body .gist .blob-num {
   color: #ced4da;
-  background-color: #495057;
+  background-color: #FFEDEB;
   pointer-events: none;
 }
 
@@ -184,7 +194,7 @@ body .gist .gist-meta {
 }
 .nav-link a,
 .nav-link a:visited {
-  color: black;
+  color: #81171B;
   text-decoration: none;
 }
 
